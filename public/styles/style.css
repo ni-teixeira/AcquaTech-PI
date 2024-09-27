@@ -9,10 +9,10 @@ body{
 
 /* criando var */
 :root{
-    --tamanho-header: 80px;
+    --tamanho-header: 60px;
     --tamanho-banner: calc(100vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
     --tamanho-login: calc(100vh - var(--tamanho--header) - var(--tamanho-footer) - 2px);
-    --tamanho-footer: 65px;
+    --tamanho-footer: 60px;
 }
 
 .header{
@@ -113,4 +113,121 @@ body{
     color: #ffff;
     display: flex;
     font-size: 15px;
+}
+
+/* login */
+
+.login{
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+    height: var(--tamanho-banner);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .card-login{
+    background-color: #e5e5ee;
+    width: 550px;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-login{
+   padding: 5px;
+   padding-bottom: 20px;
+}
+
+.card-login h2{
+    color: #d77a99;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.card-login span{
+    color: #d77a99;
+    font-weight: 700;
+}
+
+.card .botao{
+    color: white;
+    background-color: #ec155b;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    width: 90px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.card .campo{
+    padding-bottom: 15px;
+}
+
+/* cadastro */
+
+.cadastro{
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+    height: var(--tamanho-banner);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.cadastro .container{
+    padding-bottom: 50px;
+}
+
+input{
+    border: 2px solid #32B9CD;
+    border-radius: 8px;
+    width: 400px;
+    height: 30px;
+    text-align: center;
+}
+
+.container .card-cadastro{
+    background-color: #e5e5ee;
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-cadastro h2{
+    color: #d77a99;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.card-cadastro span{
+    color: #d77a99;
+    font-weight: 700;
+}
+
+.card-cadastro{
+    padding-bottom: 30px;
 }
